@@ -1,4 +1,15 @@
-# Sudoku
-A simple java sudoku solver using backtracking algorithm
+# Sudoku Solver
+A simple java sudoku solver which uses a backtracking algorithm
 
-Run with .txt file as command line argument (see example.txt for proper formatting)
+### How to use:
+
+Compile, then invoke as:
+
+```
+java sudoku input.txt
+```
+
+The text file should be formatted as a 9x9 grid of integers.
+The rows should be new line delimited and the columns should be space delimited.
+
+A sample input file with proper formatting is included as example.txt
